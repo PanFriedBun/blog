@@ -52,7 +52,7 @@ body {
     padding-bottom: 5em !important;
 }
 
-.m-padded-lr {
+.m-padded-lr-responsive {
     padding-left: 4em !important;
     padding-right: 4em !important;
 
@@ -72,6 +72,10 @@ body {
 
 .m-margin-top-large{
     margin-top: 1em !important;
+}
+
+.m-margin-bottom-mini{
+    margin-bottom: 0.5em !important;
 }
 
 
@@ -124,9 +128,15 @@ body {
 
 /*---------display---------*/
 .m-inline-block{
+
     display: inline-block !important;
 }
+/*---------shadow---------*/
 
+.m-shadow-small{
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
 
 /*---------color---------*/
 .m-black{
@@ -141,7 +151,18 @@ body {
     .m-mobile-hide{
         display: none !important;
     }
+    .m-mobile-wide{
+        width: 100% !important;
+    }
     .m-mobile-show{
         display:block !important;
+    }
+    .m-padded-lr-responsive{
+        padding-left:0 !important;
+        padding-right: 0 !important;
+    }
+    .m-padded-lr-clear{
+        padding-left:0 !important;
+        padding-right: 0 !important;
     }
 }
